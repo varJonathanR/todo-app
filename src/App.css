@@ -1,0 +1,144 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.App{
+  padding: 3% 0 0 0;
+}
+
+footer{
+  margin-top: 1rem;
+  user-select: none;
+}
+
+h1{
+  font-weight: 700;
+}
+
+.todo-wrapper{
+  background-color: #353434;
+  box-shadow: 0px 5px 7px rgb(27, 27, 27);
+  padding: 1rem;
+  width: fit-content;
+  margin: 0 auto;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.btn-area{
+  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+  padding: 1rem;
+}
+
+.btn-area button{
+  background-color: transparent;
+  color: #FFFFFF;
+  transition: outline .2s ease-in;
+}
+
+.btn-area button:hover, .btn-area button.active{
+  outline: 3px solid #0275d8;
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.todo-input input{
+  border: none;
+  width: 250px;
+  background-color: #f2f2f2;
+}
+
+.todo-input input:focus{
+  outline: 1px solid #FFFFFF;
+}
+
+.primaryBtn{
+  color: #FFFFFF;
+  background-color: #0275d8;
+  width: 80px;
+  transition: background-color .2s ease-in;
+}
+
+.primaryBtn:hover{
+  background-color: #3498db;
+}
+
+.todo-list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8rem 1rem;
+  margin: .5rem 0;
+  background-color: #242424;
+  border-radius: 8px;
+}
+
+.todo-list-item-task{
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  transition: opacity .3s linear;
+}
+
+.todo-list-item-task span{
+  position: relative;
+}
+
+.todo-list-item-task span::before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 12px;
+  transition: width .2s linear;
+}
+
+.todo-list-item-task.done span::before{
+  width: 100%;
+}
+
+.todo-list-item-task.done{
+  opacity: .3;
+  text-decoration: line-through;
+}
+
+.todo-list-item-task input{
+  border: none;
+  background-color: transparent;
+  outline: 2px solid #353434;
+  color: #FFFFFF;
+  padding: .2rem .5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.checkbox{
+  margin-right: .4rem;
+}
+
+.todo-list-item-icons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.trash{
+  transition: color .2s ease-in;
+  cursor: pointer;
+}
+.trash:hover{
+  color: #f70d1a;
+}
