@@ -36,9 +36,9 @@
 
 ## Overview
 
-![screenshot](https://github.com/varJonathanR/todo-app/tree/main/src/assets)
+![screenshot](https://github.com/varJonathanR/todo-app/blob/main/src/assets/todo-app_preview.png)
 
-This is a simple Todo App, I changed the design on figma trying to make it more personal, some things are mising as filter by Active, and Completed because my experience but I promisse you, reader, I'll improve myself and, when be ready and have more experience I'm gona change and upgrade this project, please wait until that happend :D
+This is a simple Todo App. I altered the design on Figma in an attempt to make it more personal. There are some missing features such as filtering by 'Active' and 'Completed' due to my current experience. However, I promise you, dear reader, that I will continue to improve. When I am better prepared and more experienced, I will overhaul and upgrade this project. Please be patient and wait for that to happen. :D
 
 ### Built With
 
