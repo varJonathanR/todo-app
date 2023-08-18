@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://todo-app-varjonathanr.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/KnTtE9wNc1ZmCXbsvG3p">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/varJonathanR/todo-app/tree/main/src/assets)
 
 This is a simple Todo App, I changed the design on figma trying to make it more personal, some things are mising as filter by Active, and Completed because my experience but I promisse you, reader, I'll improve myself and, when be ready and have more experience I'm gona change and upgrade this project, please wait until that happend :D
 
@@ -61,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/varJonathanR/todo-app
 
 # Install dependencies
 $ npm install
